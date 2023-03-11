@@ -38,7 +38,7 @@ const computerPlay = () => {
 const game = () => {
   for (let i = 0; i < 5; i++) {
     let playerMove = prompt();
-    console.log("Your move: " + playerMove);
+    console.log("Your move: " + playerMove.toLowerCase());
     let computerMove = computerPlay();
     console.log("Computer move: " + computerMove);
     let lowerStringPlayerChoose = playerMove.toLowerCase();
